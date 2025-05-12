@@ -1,4 +1,4 @@
-package com.battatt.myapplication.ui.theme.screen
+package com.battatt.myapplication.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,11 +9,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun ProfileScreen() {
+fun HomeScreen() {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "Профиль", style = MaterialTheme.typography.titleLarge)
+        Text(text = "Домашний экран", style = MaterialTheme.typography.titleLarge)
     }
 }

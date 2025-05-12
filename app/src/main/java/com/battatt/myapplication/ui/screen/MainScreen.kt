@@ -1,4 +1,4 @@
-package com.battatt.myapplication.ui.theme.screen
+package com.battatt.myapplication.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.padding
